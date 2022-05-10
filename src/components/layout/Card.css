@@ -1,0 +1,21 @@
+.Card {
+    flex: 1;
+    border: 3px solid #000;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /*evita que vaze conteúdo pela borda, estoure a cor*/
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px; /*menos que isso ele ele quebra linha  para um card por linha*/
+}
+
+.Card .Footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.Card .Conteudo {
+    flex:1;      /*faz com que o conteudo cresça e forçe o footer para baixo */
+    color: #000;
+}
